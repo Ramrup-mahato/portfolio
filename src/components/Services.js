@@ -7,8 +7,9 @@ const Services = () => {
                 <div className='services__head'>
                     <h3>SERVICES</h3>
                     <h1>My Services </h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and 
-                        typesetting industry. Lorem Ipsum standard dummy text.</p>
+                    <p>
+                        I am frontend developer on Reactjs with the 1+ year of experience.
+                    </p>
                     <div id='div1'></div>
 
                 </div>
