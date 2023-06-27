@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      
       <Banner  />
       <About />
       {/* <Animated /> */}
