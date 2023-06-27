@@ -1,0 +1,82 @@
+.navbar {
+    width: 100%;
+    height:100px;
+    position:fixed;
+    background-color:rgb(3, 3, 56);
+    z-index: 5;
+  }
+  .nav_container {
+    width: 100%;
+    display: flex;
+    height:100px;
+    align-items: center;
+    justify-content:space-between !important;
+    gap: 10px;
+    }
+
+  .nav-logo img {
+    height: 130px;
+    margin: 20px;
+  }
+  
+  .navbar__right {
+    display: flex;
+    list-style-type:none;
+  }
+  .navbar__right li a{
+    text-decoration: none;
+    color:#fff;
+    font-size:15px;
+    font-weight: 500;
+    margin:0 20px;
+    cursor: pointer;
+    border: 2px solid rgb(3, 3, 56);
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .navbar__right_button{
+    border: 2px solid rgb(8, 49, 124) !important;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+
+  }
+  .navbar__right_button:hover, .navbar__right li a:hover{
+    border: 2px solid #64ffda !important;
+    border-radius: 5px;
+    color: #64ffda;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  @media screen and (max-width: 900px) {
+      .navbar__right li a{
+        font-size:15px;
+        font-weight: 500;
+        margin:0 5px;
+        border-radius: 5px;
+        padding: 5px;
+      }
+      .navbar__right_button{
+        border: 2px solid rgb(8, 49, 124) !important;
+        border-radius: 5px;
+        padding: 5px;
+        cursor: pointer;
+    
+      }
+      .navbar__right_button:hover, .navbar__right li a:hover{
+        border: 2px solid #64ffda !important;
+        border-radius: 5px;
+        color: #64ffda;
+        text-decoration: none;
+        transition: all 0.3s;
+      }
+  }
+  @media screen and (max-width: 600px) {
+    .navbar__right li {
+    display: none;
+    }
+    .Nav_resume{
+        display: block !important;
+    }
+}

@@ -1,0 +1,32 @@
+.About {
+    background-color:rgba(6, 3, 48, 0.849);
+    width: 100%;
+    
+  }
+  .About__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .AboutMe{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  .AboutImg{
+    padding:0 20px ;
+    flex: 1;
+  }
+  .AboutParagraph{
+    padding:0 40px ;
+    flex: 2;
+  }
+
+  @media screen and (max-width: 800px) {
+    .AboutMe {
+
+        flex-direction: column;
+       
+      }
+}

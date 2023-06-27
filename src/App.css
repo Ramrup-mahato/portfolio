@@ -3,51 +3,24 @@
   padding:0;
   box-sizing:border-box;
 }
-.clearfix:after{
-  content:'';
-  clear:both;
-  display:flex;
-}
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: gray;
+  /* color: #ccd6f6 !important; */
+
+}
+.sw {
+  box-shadow: 0px 2px 13px rgba(5, 0, 255, 0.16);
+}
+#sw {
+  box-shadow: 0px 2px 13px rgba(5, 0, 255, 0.16);
 }
 .header {
   width:100%;
-  height:100%;
 } 
-.navbar {
-  width: 100%;
-  height:100px;
-  position:fixed;
-  background-color:rgb(3, 3, 56);
-}
-.nav_container {
-  display: flex;
-  height:100px;
-  align-items: center;
-  justify-content:space-between;
-  }
-.container {
-  width:1200px;
-  margin: 0 auto;
-}
-.nav-logo img {
-  height:30px;
-  width: 110px;
-  margin:20px;
-}
-
-.navbar__right {
-  display: flex;
-  list-style-type:none;
-}
-.navbar__right li a{
-  text-decoration: none;
-  color:#fff;
-  font-size:18px;
-  font-weight: 500;
-  margin:0 20px;
+ol, ul{
+  padding-left: 0 !important;
 }
 .header {
   background-color: rgb(8, 49, 124);
@@ -55,6 +28,7 @@ body {
 .row {
   display: flex;
   width: 100%;
+  height: 100vh;
 }
 .toggle {
   position:fixed;
@@ -67,8 +41,19 @@ body {
 }
 
 .col-6 {
-  width: 50%;
-  margin: 100px 0 0 10px;
+  /* width: 50%; */
+  /* margin: 100px 0 0 10px; */
+  flex: 3;
+  height: 80vh;
+}
+.col-7 {
+  flex: 2;
+  height: 80vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
 }
 .header-content {
   display: flex;
@@ -77,94 +62,13 @@ body {
   color:#fff;
   margin-top:350px;
 }
-.header-ul {
-  list-style: none;
-  display: flex;
-}
-.header-ul li{
-  width: 50px;
-  height: 50px;
-  border: 2px solid rgb(241, 97, 97);
-  border-radius: 50%;
-  display:flex;
-  align-items:center;
-  justify-content: center;
-  margin:0 20px 0 0;
-  }
-.header-sections h1 {
-  font-size: 50px;
-  font-weight: 700;
-  margin:15px 0;
-}
-.header-sections p {
-  font-size: 25px;
-}
-.btn {
-  outline: none;
-  margin-top:30px;
-}
-.btn a {
-  text-decoration: none;
-  border:2px solid rgb(158, 12, 49);
-  border-radius:25%;
-  padding: 10px 15px;
-  background-color:rgb(230 8 8);
-}
-.btn-youtobe{
-  float: right;
-  margin:-36px 325px 0 0;
-}
-.services {
-  background-color:rgba(6, 3, 48, 0.849);
-  width: 100%;
-}
-.services__head {
-  height:350px;
-  padding-top: 100px;
-  color:#fff;
-}
-.services__head  h3 {
-  width: 60px;
-  margin:0 auto;
-  margin-bottom:20px;
-  color: red;
-}
-.services__head  h1 {
-  width:200px;
-  margin:0 auto;
-  margin-bottom:20px;
-}
-.services__head  p {
-  width: 600px;
-  margin:0 auto;
-  text-align: center;
-}
-#div1 {
-  width:100px;
-  height:5px;
-  background-color:rgb(231, 27, 27);
-  margin:50px auto;
-}
 
-.Description {
-  background-color: rgba(2, 2, 36, 0.945);
+
+.Description_Ramrup {
+  background-color: rgb(40, 26, 100);
+
   transition:background 0.5s yellow;
 }
-.icons-des-1 {
-  width:30%;
-  height:200px;
-  margin:20px;
-  box-shadow:2px 2px yellow;
-  background-color:rgb(15, 3, 70);
-  text-align:center;
-  padding:20px;
-  float:left;
-  color:#fff;
-  border-radius:10px;
-  transition: all 1s linear;}
-  .icons-des-1:hover{
-    background-color:red;
-  }
 
   .About {
     background-color: cadetblue;
@@ -206,7 +110,7 @@ body {
 }
 
 .Animated{
-  background-color: rgb(40, 26, 100);
+  background-color: rgba(2, 2, 36, 0.945);
 }
 .col-ani {
   width:50%;
@@ -281,49 +185,7 @@ color: #fff;}
   background-color: rgba(2, 2, 36, 0.945);
   padding:20px;
 }
-.contact-1 {
-  padding: 30px 0 0 0;
-}
-.contact-12 {
-  text-align: center;
-  width: 100%;
-}
-.contact-12 h3{
-  color: red;
-}
-.contact-12 h1{
-  color: #fff;
-  font-size:60px;
-  font-weight:700;
-}
-.contact-12 p{
-  color: #fff;
-  width: 600px;
-  margin: 5px auto;
-}
 
-.contact-13 div{
-  width:30%;
-  height: 100px;
-  float: left;
-  background-color: rgb(40, 26, 100);
-  margin: 20px 3% 0 0;
-  padding: 30px;
-  text-align: center;
-  border-radius: 10px;
-  transition:all 1s linear;
-}
-  .contact-13 div:hover{
-    background-color: rgb(120, 206, 35);
-  
-  }
-.contact-13 a{
-  text-decoration: none;
-  color: red;
-}
-.contact-13 p{
-  color: #fff;
-}
 
 .form{
   background-color: rgba(2, 2, 36, 0.945) ;
@@ -374,91 +236,9 @@ color: #fff;}
 .submit:hover {
   background-color: rgb(158, 12, 49);
 }
-
-@media(max-width:765px){
-  .container {
-    width: 100%;
-    padding: 0 20px;
-  }
-  .col-6{
-    width: 100%;
-    margin: -150px auto 0;
-    height:550px;
-  }
-  .col-6 img{
-    display: none;
-  }
-  .col-6 h1{
-    font-size: 22px;
-  }
-  .col-6 p{
-    font-size:15px;
-  }
-  .btn .btn-youtobe {
-    margin: -40px 0 0 0;
-  }
-  .services__head {
-    width: 100%;
-  }
-  .services__head p{
-    width: 100%;
-  }
-  .icons-des-1{
-    width:40%;
-  }
-  .icons-des-1 h1{
-    font-size: 20px;
-  }
-  .icons-des-1 p{
-    font-size:12px;
-  }
-  .About_me{
-    width:100%;
-  }
-  .About-des {
-    text-align: center;
-  }
-  .About-des img{
-    display: none;
-  }
-  .column {
-    width:100%;
-  }
-  .col-ani {
-    width: 100%;
-  }
-  .col-ani p{
-    width: 100%;
-  }
-  .contact-12 p {
-    width: 100%;
-  }
-  .contact-13 div{
-    width:100%;
-  }
-  .contact-13 p {
-    font-size:12px;
-  }
-  .form-sub{
-    width:100%;
-  }
-  .navbar__right {
-    flex-direction: column;
-    width:100%;
-    align-items:center;
-    background:rgb(4, 4, 78) ;
-    position:fixed;
-    top:0;
-    margin: 0 0 0 -20px;}
-  
-  .navbar__right li a{
-    display:block;
-    padding:12px 0;
-
-  }
-  .toggle{
-    display:flex;
-  }
-
+#About-Ramrup,#Ramrup-Experience,#Ramrup-work,#Ramrup-Contact {
+  scroll-margin-top:100px;
 }
+
+
 
