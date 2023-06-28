@@ -1,5 +1,9 @@
 {
   "name": "site",
+<<<<<<< HEAD
+=======
+  "homepage": "https://Ramrup-mahato.github.io/portfolio",
+>>>>>>> 3365287c3d8533d287bd2a69a9966344dfb6675a
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +11,10 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.3.0",
+<<<<<<< HEAD
+=======
+    "gh-pages": "^5.0.0",
+>>>>>>> 3365287c3d8533d287bd2a69a9966344dfb6675a
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
@@ -16,6 +24,11 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+<<<<<<< HEAD
+=======
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
+>>>>>>> 3365287c3d8533d287bd2a69a9966344dfb6675a
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

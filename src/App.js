@@ -15,6 +15,10 @@ function App() {
   return (
     <div className="App">
       <Nav />
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 3365287c3d8533d287bd2a69a9966344dfb6675a
       <Banner  />
       <About />
       {/* <Animated /> */}
