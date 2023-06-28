@@ -1,0 +1,122 @@
+.header-ul {
+    list-style: none;
+    display: flex;
+  }
+  .header-ul li{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid rgb(241, 97, 97); */
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    /* margin:0 20px 0 0; */
+    cursor: pointer;
+    color: #8892b0;
+    }
+    .Banner_icons{
+        font-size: 40px;
+        font-weight: 100;
+    }
+  /* .header-sections h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin:15px 0;
+  } */
+  .header-sections p {
+    font-size: 15px;
+  }
+  .subheading{
+    color: #64ffda;
+  }
+  .subheadingSpan{
+    color: #ccd6f6;
+    font-weight: 500;
+  }
+  .btn {
+    outline: none;
+    margin-top:30px;
+  }
+  .btn a {
+    text-decoration: none;
+    border:2px solid rgb(158, 12, 49);
+    border-radius:25%;
+    padding: 10px 15px;
+    background-color:rgb(230 8 8);
+  }
+  .btn-youtobe{
+    float: right;
+    margin:-36px 325px 0 0;
+  }
+  .bigheading,.bigheading2 {
+    font-size: clamp(40px,8vw,60px);
+    font-weight: 600;
+    font-family: serif;
+    margin: 0;
+    color: #ccd6f6;
+  }
+
+  .bigheading2,.subheading2{
+    color: #8892b0;
+  }
+  
+  .instagram:hover {
+    font-size: 43px;
+    color: #d6249f;
+    color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    /* box-shadow: 0px 3px 10px rgba(0,0,0,.25); */
+    transition: all 0.3s;
+  }
+  .VscGithubAlt:hover{
+    font-size: 43px;
+    color: #181717;
+    transition: all 0.3s;
+
+  }
+  .FiLinkedin:hover{
+    font-size: 43px;
+    color: #0077B5;
+    transition: all 0.3s;
+  }
+  .FaWhatsapp:hover{
+    font-size: 43px;
+    color:  #25D366;
+    transition: all 0.3s;
+  }
+  .AiOutlineMail:hover{
+    font-size: 43px;
+    color:   #FFC0CB;
+    transition: all 0.3s;
+  }
+  .picture{
+    width: 100%; /* Adjust the size as needed */
+    filter: drop-shadow(5px 5px 5px #222);
+    transition: filter 0.2s ease;
+    filter: grayscale(100%);
+    border-radius: 5px;
+  }
+  .picture:hover{
+    transition: filter 0.2s ease;
+    filter: grayscale(0%)
+  }
+  .BannerImageColor{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-image: linear-gradient(#683f3f00, #08317c);
+  }
+  .subheadingemail{
+    color: #8892b0;;
+    cursor: pointer;
+  }
+  .subheadingemail:hover{
+    font-family: cursive;
+    font-weight: 900;
+    color:   #FFC0CB;
+  }
+  @media screen and (max-width: 800px) {
+    .bigheading,.bigheading2 {
+      font-size: clamp(30px,2vw,10px);
+    }
+}
