@@ -17,11 +17,7 @@ const Work = () => {
       id: 1,
       image: img1,
       title: "HomeScout",
-<<<<<<< HEAD
       // link: "https://rad-narwhal-b1c720.netlify.app",
-=======
-      link: "https://rad-narwhal-b1c720.netlify.app",
->>>>>>> 3365287c3d8533d287bd2a69a9966344dfb6675a
       description:
         "An e-commerce website for selling, buying, and renting (rooms, apartments, houses) and service Providers.",
     },
@@ -29,12 +25,7 @@ const Work = () => {
       id: 2,
       image: img4,
       title: "My Portfolio Website",
-<<<<<<< HEAD
       link: "https://ramrup-mahato.github.io/portfolio/",
-=======
-      link: "https://rad-narwhal-b1c720.netlify.app",
-      githubCode: "https://github.com/Ramrup-mahato/react-website",
->>>>>>> 3365287c3d8533d287bd2a69a9966344dfb6675a
       description:
         "A webite to showcase my information, projects, and experience.",
     },
@@ -123,7 +114,7 @@ const Work = () => {
                             onClick={() => handleGithubClick(ele.githubCode)}
                           />
                         </li>
-                      </ul>
+                      </ul> 
                     )}
                   </div>
                 </div>
