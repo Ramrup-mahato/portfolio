@@ -75,7 +75,7 @@ const Banner = () => {
                   <li>
                     <AiOutlineMail
                       className="Banner_icons AiOutlineMail"
-                      onclick={() =>
+                      onClick={() =>
                         handleEmailClick("ramrupmahato1996@gmail.com")
                       }
                     />
@@ -83,7 +83,7 @@ const Banner = () => {
                 </ul>
                 <p
                   className="subheadingemail"
-                  onclick={() => handleEmailClick("ramrupmahato1996@gmail.com")}
+                  onClick={() => handleEmailClick("ramrupmahato1996@gmail.com")}
                 >
                   ramrupmahato1996@gmail.com
                 </p>
