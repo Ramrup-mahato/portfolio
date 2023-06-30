@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cbcac52a.chunk.css",
-    "main.js": "/portfolio/static/js/main.791b80c8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.791b80c8.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.6e05e7f0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6e05e7f0.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.751b60f3.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.751b60f3.js.map",
     "static/css/2.b183c589.chunk.css": "/portfolio/static/css/2.b183c589.chunk.css",
@@ -13,7 +13,7 @@
     "static/css/main.cbcac52a.chunk.css.map": "/portfolio/static/css/main.cbcac52a.chunk.css.map",
     "static/js/2.3421b8e3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3421b8e3.chunk.js.LICENSE.txt",
     "static/media/R_logo.06bb3a39.png": "/portfolio/static/media/R_logo.06bb3a39.png",
-    "static/media/Ramrup Resume.db5afd83.pdf": "/portfolio/static/media/Ramrup Resume.db5afd83.pdf",
+    "static/media/Ramrup Resume.34e1a6a2.pdf": "/portfolio/static/media/Ramrup Resume.34e1a6a2.pdf",
     "static/media/TMS.b049592e.png": "/portfolio/static/media/TMS.b049592e.png",
     "static/media/homescout.664fe90f.png": "/portfolio/static/media/homescout.664fe90f.png",
     "static/media/miniTv.2f478b69.png": "/portfolio/static/media/miniTv.2f478b69.png",
@@ -27,6 +27,6 @@
     "static/css/2.b183c589.chunk.css",
     "static/js/2.3421b8e3.chunk.js",
     "static/css/main.cbcac52a.chunk.css",
-    "static/js/main.791b80c8.chunk.js"
+    "static/js/main.6e05e7f0.chunk.js"
   ]
 }
