@@ -7,6 +7,8 @@ import img1 from "../assets/homescout.png";
 import img2 from "../assets/miniTv.png";
 import img3 from "../assets/TMS.png";
 import img4 from "../assets/portfolio.png";
+import img5 from "../assets/worldsMap.png";
+
 import { VscGithubAlt } from "react-icons/vsc";
 
 
@@ -23,14 +25,23 @@ const Work = () => {
     },
     {
       id: 2,
+      image: img5,
+      title: "World Map",
+        link: "https://world-map-deploy.vercel.app/",
+      description:
+        "Here, you can select or search for a country on the world map. You will find detailed information about the selected country.",
+    },
+    {
+      id: 3,
       image: img4,
       title: "My Portfolio Website",
       link: "https://ramrup-mahato.github.io/portfolio/",
       description:
         "A webite to showcase my information, projects, and experience.",
     },
+
     {
-      id: 3,
+      id: 4,
       image: img3,
       title: "TMS (Tunnel management system)",
       //   link: "https://rad-narwhal-b1c720.netlify.app",
@@ -38,7 +49,7 @@ const Work = () => {
         "TMS is a traffic control system in the tunnel. The system alerts when an accident occurs, closes the tunnel, and provides full control online.",
     },
     {
-      id: 4,
+      id: 5,
       image: img2,
       title: "MiniTv",
       link: "https://singular-parfait-4abc8b.netlify.app/",
