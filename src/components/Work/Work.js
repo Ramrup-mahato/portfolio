@@ -8,9 +8,8 @@ import img2 from "../assets/miniTv.png";
 import img3 from "../assets/TMS.png";
 import img4 from "../assets/portfolio.png";
 import img5 from "../assets/worldsMap.png";
-
+import { Fade } from "react-reveal";
 import { VscGithubAlt } from "react-icons/vsc";
-
 
 const Work = () => {
   const [slidesToShow, setSlidesToShow] = useState(2);
@@ -27,7 +26,7 @@ const Work = () => {
       id: 2,
       image: img5,
       title: "World Map",
-        link: "https://world-map-deploy.vercel.app/",
+      link: "https://world-map-deploy.vercel.app/",
       description:
         "Here, you can select or search for a country on the world map. You will find detailed information about the selected country.",
     },
@@ -58,9 +57,11 @@ const Work = () => {
       githubCode: "https://github.com/Ramrup-mahato/MiniwebsiteTV",
     },
   ];
+
   const handleGithubClick = (gitLink) => {
     window.open(gitLink, "_blank");
   };
+
   const handleGithubProject = (Link) => {
     window.open(Link, "_blank");
   };
@@ -82,6 +83,7 @@ const Work = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
   var settings = {
     dots: false,
     infinite: true,
@@ -93,44 +95,48 @@ const Work = () => {
     <div className="Description_Ramrup" id="Ramrup-work">
       <div className="container">
         <div className="WorkmainContainer">
-          <h1 className="bigheading2">Some Things I’ve Built.</h1>
+          <Fade right>
+            <h1 className="bigheading2">Some Things I’ve Built.</h1>
+          </Fade>
           <div className="workSlider">
-            <Slider {...settings}>
-              {workData.map((ele, index) => (
-                <div key={index} className="WorkRamDiv">
-                  <div className="sw WorkImagediv">
-                    <img src={ele.image} alt="Project image" />
+            <Fade bottom>
+              <Slider {...settings}>
+                {workData.map((ele, index) => (
+                  <div key={index} className="WorkRamDiv">
+                    <div className="sw WorkImagediv">
+                      <img src={ele.image} alt="Project image" />
+                    </div>
+                    <div className="workLink">
+                      <h5 className="bigheadingh5 bigheadingh5Work">
+                        {ele.title}
+                      </h5>
+                      <p className="subheading2 subheading2Work">
+                        {ele.description}
+                      </p>
+                      {ele.link && (
+                        <a
+                          className="workLinkHref"
+                          onClick={() => handleGithubProject(ele.link)}
+                        >
+                          Click Here to view site.
+                        </a>
+                      )}
+                      {ele.githubCode && (
+                        <ul className="header-ul">
+                          <li>
+                            <VscGithubAlt
+                              title="Code for this project"
+                              className="Banner_icons VscGithubAlt "
+                              onClick={() => handleGithubClick(ele.githubCode)}
+                            />
+                          </li>
+                        </ul>
+                      )}
+                    </div>
                   </div>
-                  <div className="workLink">
-                    <h5 className="bigheadingh5 bigheadingh5Work">
-                      {ele.title}
-                    </h5>
-                    <p className="subheading2 subheading2Work">
-                      {ele.description}
-                    </p>
-                    {ele.link && (
-                      <a
-                        className="workLinkHref"
-                        onClick={() => handleGithubProject(ele.link)}
-                      >
-                        Click Here to view site.
-                      </a>
-                    )}
-                    {ele.githubCode && (
-                      <ul className="header-ul">
-                        <li>
-                          <VscGithubAlt
-                            title="Code for this project"
-                            className="Banner_icons VscGithubAlt "
-                            onClick={() => handleGithubClick(ele.githubCode)}
-                          />
-                        </li>
-                      </ul> 
-                    )}
-                  </div>
-                </div>
-              ))}
-            </Slider>
+                ))}
+              </Slider>
+            </Fade>
           </div>
         </div>
       </div>
