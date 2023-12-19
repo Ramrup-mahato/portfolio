@@ -112,7 +112,7 @@ const Banner = () => {
                     digital experiences. Currently, I’m focused on building
                     accessible, human-centered products at{" "}
                     <span className="subheadingSpan">
-                      Codermaniaa lab pvt ltd
+                    Artificial Mind & Intelligence Technology Pvt. Ltd.
                     </span>
                     .
                   </p>

@@ -39,11 +39,11 @@ const About = () => {
                   at
                   <span className="subheadingSpan">
                     {" "}
-                    Codermaniaa lab pvt ltd
+                    Artificial Mind & Intelligence Technology Pvt. Ltd
                   </span>{" "}
                   with various Insurance domain clients. My main focus these
                   days is building accessible, inclusive products and digital
-                  experiences at Codermaniaa lab pvt ltd.
+                  experiences at Artificial Mind & Intelligence Technology Pvt. Ltd.
                 </p>
               </Fade>
               <Fade right>
@@ -52,7 +52,7 @@ const About = () => {
                   <br />
                   &#8680; HTML/CSS
                   <br />
-                  &#8680; ReactJS
+                  &#8680; ReactJS/Next.js
                   <br />
                   &#8680; JavaScript (ES6+)
                   <br />

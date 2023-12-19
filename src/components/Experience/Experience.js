@@ -41,7 +41,7 @@ const Experience = () => {
           <div className="Experience_Container">
             <Fade bottom>
               <h5 className="bigheadingh5">
-                Engineer <span className="subheading">@Codermaniaa</span>
+                Engineer <span className="subheading">@Artificial Mind & Intelligence</span>
               </h5>
               <p className="subheading2 subheadingdate ">
                 <i>Sep 2021 - Present</i>
@@ -51,7 +51,7 @@ const Experience = () => {
               <Fade bottom>
                 <p className="subheading2 ">
                   {" "}
-                  Worked as front-end developer in E-commerce and TMS (Tunnel
+                  Worked as front-end developer in E-commerce, created npm package,Electrical E-Market and TMS (Tunnel
                   management system):
                   <br />
                 </p>
