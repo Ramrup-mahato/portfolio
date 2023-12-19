@@ -1,33 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cbcac52a.chunk.css",
-    "main.js": "/portfolio/static/js/main.4ecc04a3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4ecc04a3.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.751b60f3.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.751b60f3.js.map",
-    "static/css/2.b183c589.chunk.css": "/portfolio/static/css/2.b183c589.chunk.css",
-    "static/js/2.be70dbac.chunk.js": "/portfolio/static/js/2.be70dbac.chunk.js",
-    "static/js/2.be70dbac.chunk.js.map": "/portfolio/static/js/2.be70dbac.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.501e1f7d.css",
+    "main.js": "/portfolio/static/js/main.ab6a68be.js",
+    "static/media/R_logo.png": "/portfolio/static/media/R_logo.06bb3a391761f90cfba9.png",
+    "static/media/homescout.png": "/portfolio/static/media/homescout.664fe90fd26570673695.png",
+    "static/media/tridoyata.png": "/portfolio/static/media/tridoyata.d990b4117ae932ec216a.png",
+    "static/media/miniTv.png": "/portfolio/static/media/miniTv.2f478b69f5aa400bede9.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.253094bd9dde46077dda.png",
+    "static/media/worldsMap.png": "/portfolio/static/media/worldsMap.be9014a82b7ff9dc4fa7.png",
+    "static/media/ramrup pic.JPG": "/portfolio/static/media/ramrup pic.b154a696d2ea4dd6e2d8.JPG",
+    "static/media/ramrup1.png": "/portfolio/static/media/ramrup1.3e89c46e873a980a4867.png",
+    "static/media/TMS.png": "/portfolio/static/media/TMS.b049592ecb0e554c5a43.png",
+    "static/media/Ramrup Resume.pdf": "/portfolio/static/media/Ramrup Resume.98a551f9ec652c56218d.pdf",
+    "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
-    "static/css/2.b183c589.chunk.css.map": "/portfolio/static/css/2.b183c589.chunk.css.map",
-    "static/css/main.cbcac52a.chunk.css.map": "/portfolio/static/css/main.cbcac52a.chunk.css.map",
-    "static/js/2.be70dbac.chunk.js.LICENSE.txt": "/portfolio/static/js/2.be70dbac.chunk.js.LICENSE.txt",
-    "static/media/R_logo.06bb3a39.png": "/portfolio/static/media/R_logo.06bb3a39.png",
-    "static/media/Ramrup Resume.98a551f9.pdf": "/portfolio/static/media/Ramrup Resume.98a551f9.pdf",
-    "static/media/TMS.b049592e.png": "/portfolio/static/media/TMS.b049592e.png",
-    "static/media/homescout.664fe90f.png": "/portfolio/static/media/homescout.664fe90f.png",
-    "static/media/miniTv.2f478b69.png": "/portfolio/static/media/miniTv.2f478b69.png",
-    "static/media/portfolio.253094bd.png": "/portfolio/static/media/portfolio.253094bd.png",
-    "static/media/ramrup pic.b154a696.JPG": "/portfolio/static/media/ramrup pic.b154a696.JPG",
-    "static/media/ramrup1.3e89c46e.png": "/portfolio/static/media/ramrup1.3e89c46e.png",
-    "static/media/slick-theme.css": "/portfolio/static/media/slick.c94f7671.ttf",
-    "static/media/worldsMap.be9014a8.png": "/portfolio/static/media/worldsMap.be9014a8.png"
+    "main.501e1f7d.css.map": "/portfolio/static/css/main.501e1f7d.css.map",
+    "main.ab6a68be.js.map": "/portfolio/static/js/main.ab6a68be.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.751b60f3.js",
-    "static/css/2.b183c589.chunk.css",
-    "static/js/2.be70dbac.chunk.js",
-    "static/css/main.cbcac52a.chunk.css",
-    "static/js/main.4ecc04a3.chunk.js"
+    "static/css/main.501e1f7d.css",
+    "static/js/main.ab6a68be.js"
   ]
 }
