@@ -20,7 +20,7 @@ const Work = () => {
       id: 1,
       image: img1,
       title: "HomeScout",
-      // link: "https://rad-narwhal-b1c720.netlify.app",
+      link: "https://homescouts.in",
       description:
         "An e-commerce website for selling, buying, and renting (rooms, apartments, houses) and service Providers.",
     },
