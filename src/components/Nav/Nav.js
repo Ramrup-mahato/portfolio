@@ -34,7 +34,7 @@ const Nav = () => {
 
           <Fade left>
             <li>
-              <a href="#Ramrup-work">Work</a>
+              <a href="#Ramrup-work">Projects</a>
             </li>
           </Fade>
           <Fade left>
