@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.501e1f7d.css",
-    "main.js": "/portfolio/static/js/main.ce06714d.js",
+    "main.js": "/portfolio/static/js/main.e5a1ad4e.js",
     "static/media/R_logo.png": "/portfolio/static/media/R_logo.06bb3a391761f90cfba9.png",
     "static/media/homescout.png": "/portfolio/static/media/homescout.664fe90fd26570673695.png",
     "static/media/tridoyata.png": "/portfolio/static/media/tridoyata.d990b4117ae932ec216a.png",
     "static/media/miniTv.png": "/portfolio/static/media/miniTv.2f478b69f5aa400bede9.png",
-    "static/media/Ramrup Resume.pdf": "/portfolio/static/media/Ramrup Resume.f8abcb0446eea6b45497.pdf",
+    "static/media/Ramrup Resume.pdf": "/portfolio/static/media/Ramrup Resume.7c36dc9cbacd166e739c.pdf",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.253094bd9dde46077dda.png",
     "static/media/worldsMap.png": "/portfolio/static/media/worldsMap.be9014a82b7ff9dc4fa7.png",
     "static/media/ramrup pic.JPG": "/portfolio/static/media/ramrup pic.b154a696d2ea4dd6e2d8.JPG",
@@ -18,10 +18,10 @@
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
     "main.501e1f7d.css.map": "/portfolio/static/css/main.501e1f7d.css.map",
-    "main.ce06714d.js.map": "/portfolio/static/js/main.ce06714d.js.map"
+    "main.e5a1ad4e.js.map": "/portfolio/static/js/main.e5a1ad4e.js.map"
   },
   "entrypoints": [
     "static/css/main.501e1f7d.css",
-    "static/js/main.ce06714d.js"
+    "static/js/main.e5a1ad4e.js"
   ]
 }
