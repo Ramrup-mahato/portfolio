@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import ramrup1 from "../assets/ramrup pic.JPG";
-import { Fade,Roll  } from "react-reveal";
+import { Fade, Roll } from "react-reveal";
 
 const About = () => {
   return (
@@ -12,7 +12,7 @@ const About = () => {
             <h1 className="bigheading2">About Me.</h1>
           </Fade>
           <div className="AboutMe">
-            <Roll  left>
+            <Roll left>
               <div className="AboutImg">
                 <div className="picture">
                   <img
@@ -43,20 +43,22 @@ const About = () => {
                   </span>{" "}
                   with various Insurance domain clients. My main focus these
                   days is building accessible, inclusive products and digital
-                  experiences at Artificial Mind & Intelligence Technology Pvt. Ltd.
+                  experiences at Artificial Mind & Intelligence Technology Pvt.
+                  Ltd.
                 </p>
               </Fade>
               <Fade right>
                 <p className="subheading2">
                   Here are a few technologies I’ve been working with recently:
                   <br />
-                  &#8680; HTML/CSS
+                  &#8680; HTML/CSS/JavaScript/Responsive web and mobile app
                   <br />
-                  &#8680; ReactJS/Next.js
+                  &#8680; ReactJS/Next.js/React Native/React Hooks
                   <br />
-                  &#8680; JavaScript (ES6+)
+                  &#8680; Socket.io/ImageKit.io/Redux/Context Api/Restful
+                  API/JSON
                   <br />
-                  &#8680; Socket.io
+                  &#8680; Bootstrap/Material UI/Tailwind CSS
                   <br />
                 </p>
               </Fade>

@@ -104,7 +104,7 @@ const Banner = () => {
                   <h1 className="bigheading">Ramrup Mahato.</h1>
                 </Fade>
                 <Fade left>
-                  <h1 className="bigheading2">I build things for the web.</h1>
+                  <h1 className="bigheading2">I build things for the web & Mobile.</h1>
                 </Fade>
                 <Fade bottom>
                   <p className="subheading2">
