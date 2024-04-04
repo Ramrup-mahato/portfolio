@@ -37,14 +37,14 @@ const About = () => {
                 <p className="subheading2">
                   Fast-forward to today, and I’ve had the privilege of working
                   at
-                  <span className="subheadingSpan">
+                  {/* <span className="subheadingSpan">
                     {" "}
-                    Artificial Mind & Intelligence Technology Pvt. Ltd
+                    DeepOrion Technology Pvt Ltd
                   </span>{" "}
-                  with various Insurance domain clients. My main focus these
+                  with */}
+                   various Insurance domain clients. My main focus these
                   days is building accessible, inclusive products and digital
-                  experiences at Artificial Mind & Intelligence Technology Pvt.
-                  Ltd.
+                  experiences.
                 </p>
               </Fade>
               <Fade right>

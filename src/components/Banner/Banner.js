@@ -110,9 +110,10 @@ const Banner = () => {
                   <p className="subheading2">
                     I’m a software engineer specializing in building exceptional
                     digital experiences. Currently, I’m focused on building
-                    accessible, human-centered products at{" "}
+                    accessible, human-centered products 
+                    {/* at{" "} */}
                     <span className="subheadingSpan">
-                    Artificial Mind & Intelligence Technology Pvt. Ltd.
+                    {/* DeepOrion Technology Pvt Ltd. */}
                     </span>
                     .
                   </p>
