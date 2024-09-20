@@ -108,7 +108,7 @@ const Banner = () => {
                 </Fade>
                 <Fade bottom>
                   <p className="subheading2">
-                    I’m a software engineer specializing in building exceptional
+                    I’m Founder, Designer & Developer of <a href="www.kizostudy.com">kizostudy.com</a>, as software engineer specializing in building exceptional
                     digital experiences. Currently, I’m focused on building
                     accessible, human-centered products 
                     {/* at{" "} */}

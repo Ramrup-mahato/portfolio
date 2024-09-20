@@ -9,6 +9,7 @@ import img3 from "../assets/TMS.png";
 import img4 from "../assets/portfolio.png";
 import img5 from "../assets/worldsMap.png";
 import img6 from "../assets/tridoyata.png";
+import kizostudy from "../assets/kizostudy.png"
 
 import mimg1 from "../assets/bidding.png";
 import mimg2 from "../assets/screen2.png";
@@ -24,6 +25,14 @@ const Work = () => {
   const workData = [
     {
       id: 1,
+      image: kizostudy,
+      title: "kizostudy.com",
+      link: "https://kizostudy.com",
+      description:
+        " KizoStudy is a platform where you can find all kinds of course-related quizzes.",
+    },
+    {
+      id: 2,
       image: img1,
       title: "HomeScout",
       link: "https://homescouts.in",
@@ -31,7 +40,7 @@ const Work = () => {
         "An e-commerce website for selling, buying, and renting (rooms, apartments, houses) and service Providers.",
     },
     {
-      id: 2,
+      id: 3,
       image: img6,
       title: "Tridyota",
       link: "https://tridyota.com",
@@ -39,7 +48,7 @@ const Work = () => {
         "On this website, you can buy all kinds of electrical components. One of its key features is the ability to add multiple products to your cart and proceed to checkout seamlessly.",
     },
     {
-      id: 3,
+      id: 4,
       image: img5,
       title: "World Map",
       link: "https://world-map-deploy.vercel.app/",
@@ -47,7 +56,7 @@ const Work = () => {
         "Here, you can select or search for a country on the world map. You will find detailed information about the selected country.",
     },
     {
-      id: 4,
+      id: 5,
       image: img4,
       title: "My Portfolio Website",
       link: "https://ramrup-mahato.github.io/portfolio/",
@@ -56,7 +65,7 @@ const Work = () => {
     },
 
     {
-      id: 5,
+      id: 6,
       image: img3,
       title: "TMS (Tunnel management system)",
       //   link: "https://rad-narwhal-b1c720.netlify.app",
@@ -64,7 +73,7 @@ const Work = () => {
         "TMS is a traffic control system in the tunnel. The system alerts when an accident occurs, closes the tunnel, and provides full control online.",
     },
     {
-      id: 6,
+      id: 7,
       image: img2,
       title: "MiniTv",
       link: "https://singular-parfait-4abc8b.netlify.app/",
